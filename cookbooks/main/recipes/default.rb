@@ -4,6 +4,8 @@ execute "testing" do
   }
 end
 
+require_recipe 'starling'
+
 # uncomment if you want to run couchdb recipe
 # require_recipe "couchdb"
 
